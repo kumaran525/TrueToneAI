@@ -1,5 +1,6 @@
 # TrueToneAI
-# Version: v1.0 | A research-driven POC to detect AI-generated deepfake voices using a Siamese network built with TensorFlow/Keras.
+# Version: v1.0 
+A research-driven POC to detect AI-generated deepfake voices using a Siamese network built with TensorFlow/Keras.
 
 This project detects AI-generated deepfake voices using a Siamese network.
 
@@ -21,7 +22,7 @@ Shared CNN for MFCCs & shared DNN for scalar inputs
 Contrastive Loss and Euclidean Distance for similarity learning
 
 # Dataset
-We used audio data from:
+We used audio data from [Kaggle](https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition) :
 
 /REAL/ — genuine human speech
 
